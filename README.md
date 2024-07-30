@@ -74,3 +74,17 @@ To run GeneCalc locally:
 1. Clone the repository:
    ```bash
    https://github.com/Abinbn/GeneCalc.git
+2. Navigate to the project directory:
+   ```bash
+   cd genecalc
+
+3. Open index.html in your web browser.
+
+## Contributing
+Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Abinbn/GeneCalc/blob/main/LICENSE) file for details.
+
+## Contact
+For any inquiries or feedback, don't hesitate to get in touch with [ME](mailto:solodeveloper790@example.com) .
