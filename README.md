@@ -20,8 +20,6 @@
    - Input the nucleotide or amino acid sequence in the text area.
 3. **Calculate Molecular Weight:**
    - Click on the "Calculate Molecular Weight" button to get the result.
-4. **Reset Fields (Optional):**
-   - Click on the "Reset" button to clear the input fields and results.
 
 ### Codon Usage Calculator
 
@@ -31,8 +29,56 @@
    - Click on the "Calculate Codon Usage" button to see the frequency of each codon.
 3. **Copy Results (Optional):**
    - Click on the "Copy Results" button to copy the codon usage results to the clipboard.
-4. **Reset Fields (Optional):**
-   - Click on the "Reset" button to clear the input fields and results.
+
+## How It Works
+
+### Molecular Weight Calculation
+
+The molecular weight calculation is performed by summing the weights of each nucleotide or amino acid in the given sequence. The weights used are as follows:
+
+- **DNA Nucleotides:**
+  - Adenine (A): 331.2 Da
+  - Thymine (T): 322.2 Da
+  - Guanine (G): 347.2 Da
+  - Cytosine (C): 307.2 Da
+
+- **RNA Nucleotides:**
+  - Adenine (A): 347.2 Da
+  - Uracil (U): 324.2 Da
+  - Guanine (G): 363.2 Da
+  - Cytosine (C): 323.2 Da
+
+- **Amino Acids:**
+  - Alanine (A): 89.1 Da
+  - Arginine (R): 174.2 Da
+  - Asparagine (N): 132.1 Da
+  - Aspartic acid (D): 133.1 Da
+  - Cysteine (C): 121.2 Da
+  - Glutamic acid (E): 147.1 Da
+  - Glutamine (Q): 146.2 Da
+  - Glycine (G): 75.1 Da
+  - Histidine (H): 155.2 Da
+  - Isoleucine (I): 131.2 Da
+  - Leucine (L): 131.2 Da
+  - Lysine (K): 146.2 Da
+  - Methionine (M): 149.2 Da
+  - Phenylalanine (F): 165.2 Da
+  - Proline (P): 115.1 Da
+  - Serine (S): 105.1 Da
+  - Threonine (T): 119.1 Da
+  - Tryptophan (W): 204.2 Da
+  - Tyrosine (Y): 181.2 Da
+  - Valine (V): 117.1 Da
+
+### Codon Usage Calculation
+
+The codon usage calculation counts the frequency of each codon in a given DNA sequence. This information can help in optimizing gene sequences for expression in different organisms, as different organisms may have varying preferences for specific codons.
+
+## Useful Information for Geneticists and Biotechnologists
+
+- **Gene Optimization:** Understanding codon usage is crucial for optimizing genes for expression in different organisms. GeneCalc provides a quick and easy way to analyze codon usage.
+- **Molecular Weight:** Knowing the molecular weight of nucleic acids and proteins is essential for various experimental and analytical procedures, including mass spectrometry, gel electrophoresis, and more.
+- **Sequence Validation:** GeneCalc includes validation to ensure the accuracy of input sequences, reducing the likelihood of errors in downstream applications.
 
 ## Code Overview
 
@@ -73,7 +119,8 @@ To run GeneCalc locally:
 
 1. Clone the repository:
    ```bash
-   https://github.com/Abinbn/GeneCalc.git
+   git clone https://github.com/your-username/genecalc.git
+
 2. Navigate to the project directory:
    ```bash
    cd genecalc
