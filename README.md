@@ -73,4 +73,4 @@ To run GeneCalc locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://Abinbn/genecalc.git
+   https://github.com/Abinbn/GeneCalc.git
